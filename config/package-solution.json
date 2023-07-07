@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "expense-management-client-side-solution",
+    "id": "d42ef3f8-f409-466a-afb6-0132bedaf711",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ExpenseManagement description"
+      },
+      "longDescription": {
+        "default": "ExpenseManagement description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "expense-management Feature",
+        "description": "The feature that activates elements of the expense-management solution.",
+        "id": "6cf271d8-ed01-4156-8f91-07e06f4d3e01",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/expense-management.sppkg"
+  }
+}

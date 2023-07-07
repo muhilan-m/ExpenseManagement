@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "expense-management-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/expenseManagement/ExpenseManagementWebPart.js",
+          "manifest": "./src/webparts/expenseManagement/ExpenseManagementWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExpenseManagementWebPartStrings": "lib/webparts/expenseManagement/loc/{locale}.js"
+  }
+}

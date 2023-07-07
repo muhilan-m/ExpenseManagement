@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "expense-management",
+    "libraryId": "d42ef3f8-f409-466a-afb6-0132bedaf711",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ExpenseManagement",
+    "solutionShortDescription": "ExpenseManagement description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
