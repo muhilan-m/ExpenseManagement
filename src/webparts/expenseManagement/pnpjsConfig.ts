@@ -8,7 +8,6 @@ import "@pnp/sp/lists";
 import "@pnp/sp/items";
 import "@pnp/sp/batching";
 import "@pnp/sp/site-users";
-import "@pnp/sp/utils";
 
 // eslint-disable-next-line no-var
 var _sp: SPFI = null;
