@@ -65,7 +65,7 @@ const ExpenseForm = (props: IExpenseFormProps) => {
       Remarks:formData.Remarks,
       DepartmentId:formData.department.key
     }).then(()=>{
-      _sp.
+      
       alert("Item Created");
       setFormData({...formData,
         department: null,
